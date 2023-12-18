@@ -19,7 +19,14 @@ e cirar um array chamado "tarefas" na sua base de dados:
 
 ---
 
-Iniciar projeto:
+Iniciar projeto com json-server instalado de forma global:
 
     npm run dev
     json-server --watch src/services/db.json --port 3030
+
+Iniciar projeto com json-server instalado de forma local:
+
+    npm run dev
+    npm run json-server
+
+OBS.: O cada linha deve ser execultada em terminais diferentes, ou os comandos devem ser modificados para execultar em um unico terminal.
